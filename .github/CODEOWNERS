@@ -1,7 +1,7 @@
 # This is a sample CODEOWNERS file.
 
 # Set a global default owner for everything in the repository
-*               @org/global-owner
+* @org/global-owner
 
 # Define ownership per directory or file
 /docs/          @tech-writers-team
