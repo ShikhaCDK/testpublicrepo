@@ -1,0 +1,19 @@
+# This is a sample CODEOWNERS file.
+
+# Set a global default owner for everything in the repository
+*               @org/global-owner
+
+# Define ownership per directory or file
+/docs/          @tech-writers-team
+/scripts/       @devops-team
+/src/           @frontend-team @backend-team
+/src/api/       @backend-team
+/src/ui/        @frontend-team
+
+# Specific files
+README.md       @product-manager
+LICENSE         @legal-team
+.github/workflows/ci.yml  @ci-cd-team
+
+# Multiple owners for a file
+Dockerfile      @devops-team @backend-team
